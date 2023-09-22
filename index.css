@@ -1,22 +1,57 @@
 .content{
   display:flex;
-  width:75%;
-  height:auto;
+  width:50%;
+  height:95vh;
   margin: auto;
   background-color: lightgreen;
+  overflow: hidden;
 }
 
 img{
-  width:50%;
-  height:auto;
+  flex:1;
+}
+
+h2{
+  color:rgb(10, 61, 59);
 }
 
 form{
   padding:40px;
+  flex:2;
+}
+
+.inputs{
+  display:flex;
+  flex-direction: column;
+  font-size: larger;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+fieldset{
+  display:flex;
+  flex:1;
+  border:none;
+}
+
+.input{
+  flex:1;
+}
+
+input{
+  height:25px;
+  border: 2px inset solid rgb(98, 101, 101);
+  border-radius: 6px;
 }
 
 button{
-  
+  padding:8px;
   border-radius:8px;
   color:black;
+  font-size: large;
+  background-color: orangered;
+}
+
+p{
+  font-size: 20px;
 }
