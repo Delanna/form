@@ -1,0 +1,22 @@
+.content{
+  display:flex;
+  width:75%;
+  height:auto;
+  margin: auto;
+  background-color: lightgreen;
+}
+
+img{
+  width:50%;
+  height:auto;
+}
+
+form{
+  padding:40px;
+}
+
+button{
+  
+  border-radius:8px;
+  color:black;
+}
